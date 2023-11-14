@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem 0 1rem 0;
+    text-align: center;
+}
+
+div {
+    margin: 1rem;
+    padding: 10px;
+    display: flex;
+}
+
+#first {
+    background-color: lightblue;
+    justify-content: space-between; 
+}
+
+#second {
+    background-color: tan;
+    justify-content: space-evenly;
+}
+
+#third {
+    background-color: darkcyan;
+    justify-content: space-around;
+}
+
+.octocat{
+    height: 200px;
+    display: flex;
+}
+
+#footer {
+    text-align: center;
+    margin-bottom: 1rem;
+}

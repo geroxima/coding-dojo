@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="/process" method="post">
+        <div>
+            <label>First Name: *</label>
+            <input type="text" name="name" 
+            placeholder="Your name..." required>
+        </div>
+        <div>
+            <label>Last Name: *</label>
+            <input type="text" name="last-name" 
+            placeholder="Your name..." required>
+        </div>
+        <div>
+            <label>Email Adress: *</label>
+            <input type="email" name="email" 
+            placeholder="Your email..." required>
+        </div>
+        <div>
+            <label>Password: *</label>
+            <input type="password" name="password" 
+            placeholder="Your password..." required>
+        </div>
+        <div>
+            <label>Confirm your passowrd: *</label>
+            <input type="password" name="password" 
+            placeholder="Your password..." required>
+        </div>
+        <div>
+            <label>Birthday:</label>
+            <input type="date" name="birthday">
+        </div>
+        <div>
+            <label>Gender Identity:</label><br>
+            <input type="checkbox" name="male" value="male">
+            <label for="male">Male</label>
+            <input type="checkbox" name="female" value="female">
+            <label for="female">Female</label>
+            <input type="checkbox" name="non-b" value="non-b">
+            <label for="non-b">Non-binary</label>
+            <input type="checkbox" name="n/a" value="n/a">
+            <label for="n/a">I preffer not to answer</label>
+        </div>
+        <div>
+            <label>A short description about myself: </label><br>
+            <textarea name="description"
+            placeholder="Write a short description about yourself..."></textarea>
+        </div>
+        <div>
+            <label>Favorite language: </label>
+            <select name="language">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JavaScript</option>
+                <option value="php">PHP</option>
+                <option value="python">Python</option>
+                <option value="ruby">Ruby</option>
+                <option value="java">Java</option>
+                <option value="c++">C++</option>
+                <option value="c#">C#</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="offers" 
+            id="offers" checked >
+            <label for="offers">Yes, I would like to receive periodic email updates</label>
+        </div>
+        <input type="submit" value="Create Account" >
+    </form>
+    <p><strong>* Indicates a required field</strong></p>
+</body>
+</html>
