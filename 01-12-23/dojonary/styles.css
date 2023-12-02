@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: #3333;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem;
+    margin: 0 25rem 0 25rem;
+    padding: 0 1rem 0 1rem
+}
+
+.mainframe {
+    display: flex;
+    margin: 1rem 25rem 0 25rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.defin-card {
+    display: flex;
+    margin: 0 2rem 1rem 0;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.word {
+    width: 50%;
+}
+
+.definition {
+    padding-top: 2rem;
+    font-size: larger;
+}
+
+.log-button {
+    font-family: inherit;
+    font-size: large;
+    background-color: #2b78e4;
+    color: white;
+    font-weight: bold;
+    border: 3px solid black;
+    box-shadow: 5px 5px black ;
+}
+
+.search-bar {
+    font-family: inherit;
+    font-size: large;
+    border: 3px solid black;
+    padding-left: 10px;
+}
+
+.add-definition {
+    font-size: 25pt;
+    width: 50%;
+    height: 30%;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 0 10px 10px 10px;
+}
+
+.add {
+    width: 100%;
+    font-family: inherit;
+    font-size: large;
+    background-color: #93c57c;
+    color: black;
+    font-weight: bold;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    padding: 0 15px 0 15px;
+}
+
+.like {
+    font-family: inherit;
+    padding: 5px;
+    font-size: large;
+    background-color: #ffd867;
+    color: black;
+    font-weight: bold;
+    border: 3px solid black;
+    box-shadow: 5px 5px black ;
+}

@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.frame {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.top-header {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    justify-content: space-between;
+}
+
+.header-icon {
+    background-color: #00d0b3;
+    padding: 5px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.icon {
+    padding: 5px;
+    border-radius: 5px;
+    height: 30px; 
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.search {
+    width: 50%;
+    margin: 0 1rem 0 1rem;
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: medium;
+}
+
+.bottom-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: thick solid black;
+}
+
+.mainframe {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainframe h1 {
+    align-self: center;
+    margin: 1rem 1rem 0 1rem;
+}
+
+.top-grid {
+    display: flex;
+    height: fit-content;
+    margin-bottom: 1rem;
+}
+
+.left-elem {
+    display: flex;
+    width: 75%;
+    height: fit-content;
+    margin-right: 1rem;
+}
+
+.left-text {
+    max-width: 300px;
+    padding: 2rem 1rem 1rem 1rem;
+    background-color: #00d0b3;
+    color: white;
+}
+
+.left-text p {
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.arrow-text {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+.right-elem .arrow-text {
+    background-color: #00d0b3;
+}
+
+.hover-image {
+    max-height: 300px;
+    aspect-ratio: 1;
+}
+
+.hover-image:hover {
+    content: url(assets/succulents-2.jpg);
+}
+
+.right-elem {
+    color: white;
+    height: fit-content;
+}
+
+.bottom-grid {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #aae9d9;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.grid-element {
+    align-items: center;
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+}
+
+.grid-element img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.cookie-alert {
+    margin: 0 auto;
+    position: fixed;
+    background-color: white;
+    bottom: 20px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cookie-text{
+    width: 70%;
+}
+
+.cookie-alert a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.button{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+    border: 3px solid black;
+    background-color: #00d0b3;
+    box-shadow: 2px 2px black;
+}
+
+.button:hover {
+    cursor: pointer;
+}

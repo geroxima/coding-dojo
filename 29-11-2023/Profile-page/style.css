@@ -1,0 +1,283 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR */
+.nav {
+    padding: 1rem 20rem 1rem 20rem;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #fff;
+}
+
+.nav-links {
+    display: flex; 
+    align-items: center; 
+    padding: 0 0;
+}
+
+.active {
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: #fff;
+    margin: 0 1rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    background-color: #4ED1B1;
+    color: white;
+    border: 3px solid black;
+    box-shadow: 5px 5px 0px black;
+    cursor: pointer;
+}
+
+/* MAINFRAME */
+.mainframe {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 20rem 1rem 20rem;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+/* Cards */
+.card {
+    width: 100%; /* Make cards take full width */
+    height: 1rem;
+    margin-bottom: 1rem;
+    border: thin solid #cfcfcf;
+    border-top-width: hidden;
+    border-style: inset;
+}
+
+.card-header {
+    width: 100%;
+    height: 3.5rem;
+    background-color: #333333;
+}
+
+#main-card-header {
+    height: 30%;
+    background-color: #17a2b8;
+}
+
+#user-card {
+    height: 26rem;
+    position: relative;
+}
+
+#education-card {
+    height: 12rem;
+}
+
+#education-card .card-header {
+    padding: 1rem 0 0 2rem;
+}
+
+#education-card .card-header h2 {
+    color: white;
+    margin: 0;
+}
+
+/* Aside */
+.aside {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+
+#connections-request {
+    height: 12rem;
+}
+
+#your-connections {
+    height: 20rem;
+}
+
+.icon {
+    height: 20px;
+    border-radius: 50%;
+}
+
+#main-user-icon {
+    height: 100%;
+    width: 100%;
+}
+
+#user-icon-border {
+    position: absolute;
+    margin: 2rem 0 0 2rem;
+    width: 150px;
+    height: 150px;
+    padding: 1px;
+    border-radius: 50%;
+    border: thin solid #cfcfcf;
+}
+
+/* INFORMATION */
+
+.info {
+    margin-top: 3.5rem;
+    padding-left: 2rem;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center; 
+}
+
+.icon-text img {
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+}
+
+#education-info {
+    padding-left: 2rem;
+}
+
+#education-info p:nth-child(2){
+    color: #cfcfcf;
+    font-weight: bold;
+}
+
+#connections-request {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#connections-request .card-header {
+    display: flex;
+    align-items: center; /* Center the items vertically */
+  }
+  
+  #connections-request .card-header h2 {
+    font-size: 17pt;
+    color: white;
+    margin-left: 1rem;
+  }
+  
+  .connection-counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    aspect-ratio: 1;
+  }
+
+  #your-connections .card-header {
+    display: flex;
+    align-items: center;
+  }  
+
+#your-connections .card-header h2{
+    color: white;
+    font-size: 17pt;
+    margin-left: 1rem;
+}
+
+#your-connections .connection-counter {
+    font-size: 10pt;
+    height: 30px;
+    width: 30px;
+    padding: 1pc;
+}
+
+.user-list {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.user-request {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    font-size: 15pt;
+}
+
+.user-request .avatar-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-request .avatar-info .icon {
+    margin-right: 10px;
+    height: 30px;
+}
+
+.user-request .icon {
+    height: 30px;
+    margin: 0 10px 0 10px;
+}
+
+.user-request .icons {
+    display: flex;
+    align-items: center;
+}
+
+#view-more {
+    padding: 10px 0 0 1rem;
+    border-top: thin solid #cfcfcf;
+}
+
+#view-more a {
+    text-decoration: none;
+    color: blue;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+
+}
+
+#view-more a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+#user-card a {
+    text-decoration: none;
+    color: blue;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+
+}
+
+#user-card a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+
+

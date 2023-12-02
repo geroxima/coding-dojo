@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    padding: 1rem;
+    height: fit-content;
+    margin-bottom: 1rem;
+}
+
+.like-section {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.like-text {
+    margin-left: 5px;
+}
+
+.like-button {
+    font-family: inherit;
+    padding: 2px 8px 2px 8px;
+    font-size: 20px;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    margin-left: 10px;
+    background-color: #fed967;
+    transition: 5ms;
+}
+
+.like-button:hover {
+    background-color: rgb(252, 145, 127);
+    cursor: pointer;
+}
+
+.like-button:active {
+    scale: 0.9;
+}
+
+.top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bottom-row {
+    margin-top: 1rem;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 1rem;
+    text-align: left;
+}
+
+header h1 {
+    margin-right: 33.5rem;
+}
+
+#your-feed {
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.mainframe {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+aside {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem 0 0;
+    height: fit-content;
+    align-items: center;
+    padding: 10px;
+}
+
+aside a {
+    margin-top: 1rem;
+}
+
+aside h2 {
+    margin-top: 1rem;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
