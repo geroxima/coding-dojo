@@ -1,0 +1,8 @@
+.person-card {
+    height: fit-content;
+    width: 50vh;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+  }
+  

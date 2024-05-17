@@ -1,0 +1,32 @@
+.input-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid gray;
+    color: gray;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.input-box h3 {
+    font-weight: 400;
+    margin: 0;
+    flex: 1;
+    text-align: left;
+}
+
+.input-box input {
+    font-size: medium;
+    flex: 1; 
+    padding: 8px;
+    margin-left: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.validation-alert {
+    color: tomato;
+    font-weight: 500;
+}

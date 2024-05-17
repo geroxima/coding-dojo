@@ -1,0 +1,9 @@
+.birthday-button  {
+    border: none;
+    padding: 15px;
+    color: grey;
+    font: inherit; 
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  

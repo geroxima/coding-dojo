@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "65d2590a4c199c4fc9e7c725"
+  },
+  "userId": {
+    "$oid": "65d0ca500f87d104631a6caf"
+  },
+  "description": "Expense description",
+  "amount": 1000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65d259344c199c4fc9e7c727"
+  },
+  "userId": {
+    "$oid": "65d0ca500f87d104631a6caf"
+  },
+  "description": "vaquita para comprar la pizza en la casa de Don Oscar Adamek",
+  "amount": 30000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65d25b40eb763cad609a8ae8"
+  },
+  "userId": {
+    "$oid": "65d0ca500f87d104631a6caf"
+  },
+  "description": "vaquita para comprar la pizza en la casa de Don Oscar Adamek",
+  "amount": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65d25bcb9af9e97193159814"
+  },
+  "userId": {
+    "$oid": "65d0ca500f87d104631a6caf"
+  },
+  "description": "vaquita para comprar la pizza en la casa de Don Oscar Adamek",
+  "amount": 1,
+  "createdAt": {
+    "$date": "2024-02-18T19:34:35.526Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-18T19:34:35.526Z"
+  },
+  "__v": 0
+}]
